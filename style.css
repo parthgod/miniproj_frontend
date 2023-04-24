@@ -233,7 +233,7 @@ h2 {
 }
 
 footer {
-  height: 320px;
+  height: 350px;
   box-shadow: 0px 3px 15px rgba(198, 42, 42, 0.664);
   margin-bottom: 0px;
 }
@@ -437,4 +437,17 @@ body {
 
 .navbar {
   box-shadow: 0px 3px 8px rgba(198, 42, 42, 0.664);
+}
+
+.contact-block {
+  text-align: center;
+  border: 5px solid #EEF2F6;
+  padding: 50px 25px;
+}
+
+.contact-block i {
+  font-size: 50px;
+  margin-bottom: 15px;
+  display: inline-block;
+  color: #e12454;
 }
