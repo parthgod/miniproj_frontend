@@ -36,7 +36,7 @@
                             <li><a class="dropdown-item" href="diabetes_form.html">Diabetes</a></li>
                             <li><a class="dropdown-item" href="heart_attack_form.html">Heart Attack</a></li>
                             <li><a class="dropdown-item" href="kidney_disease.html">Kidney Disease</a></li>
-                            <li><a class="dropdown-item" href="hypertension_form.html">Hypertension</a></li>
+                            <li><a class="dropdown-item" href="#">Hypertension</a></li>
                             <li><a class="dropdown-item" href="#">Parkinsons</a></li>
                         </ul>
                     </li>
@@ -46,66 +46,59 @@
             </div>
         </div>
     </nav>
-    <h3 class="disease-title">Lung Cancer</h3>
+    <h3 class="disease-title">Hypertension</h3>
     <div class="divider" style="margin: 0 auto;"></div>
     <div class="formbold-main-wrapper">
         <div class="formbold-form-wrapper">
             <form action="#" method="POST">
                 <div class="formbold-mb-5">
-                    <label for="Yellow Fingers" class="formbold-form-label">
-                        Yellow Fingers
-                        <a class="popup-btn icofont-question-circle"></a>
+                    <label for="Gender" class="formbold-form-label">
+                        Gender
                     </label>
-                    <input type="text" name="Yellow Fingers" id="Yellow Fingers" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <input type="radio" id="male" name="Gender" value="male">
+                            <label for="male">Male</label><br>
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="radio" id="female" name="Gender" value="female">
+                            <label for="female">Female</label><br>
+                        </div>
+                    </div>
                 </div>
                 <div class="formbold-mb-5">
-                    <label for="Fatigue" class="formbold-form-label">
-                        Fatigue
-                        <a class="popup-btn icofont-question-circle"></a>
+                    <label for="Age" class="formbold-form-label">
+                        Age
                     </label>
-                    <input type="text" name="Fatigue" id="Fatigue" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
+                    <input type="text" name="Age" id="Age" placeholder="Enter age" class="formbold-form-input" />
                 </div>
                 <div class="formbold-mb-5">
-                    <label for="Allergy" class="formbold-form-label">
-                        Allergy
+                    <label for="Heart Disease" class="formbold-form-label">
+                        Heart Disease
                         <a class="popup-btn icofont-question-circle"></a>
                     </label>
-                    <input type="text" name="Allergy" id="Allergy" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
+                    <input type="text" name="Heart Disease" id="Heart Disease" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
                 </div>
                 <div class="formbold-mb-5">
-                    <label for="Wheezing" class="formbold-form-label">
-                        Wheezing
+                    <label for="Glucose_level" class="formbold-form-label">
+                        Glucose Level
                         <a class="popup-btn icofont-question-circle"></a>
                     </label>
-                    <input type="text" name="Wheezing" id="Wheezing" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
+                    <input type="text" name="Glucose_level" id="Glucose_level" placeholder="Enter Glucose level" class="formbold-form-input" />
                 </div>
                 <div class="formbold-mb-5">
-                    <label for="Alcohol Consuming" class="formbold-form-label">
-                        Alcohol Consuming
+                    <label for="BMI" class="formbold-form-label">
+                        BMI
                         <a class="popup-btn icofont-question-circle"></a>
                     </label>
-                    <input type="text" name="Alcohol Consuming" id="Alcohol Consuming" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
+                    <input type="text" name="BMI" id="BMI" placeholder="Enter BMI" class="formbold-form-input" />
                 </div>
                 <div class="formbold-mb-5">
-                    <label for="Coughing" class="formbold-form-label">
-                        Coughing
+                    <label for="Heart Stroke" class="formbold-form-label">
+                        Heart Stroke
                         <a class="popup-btn icofont-question-circle"></a>
                     </label>
-                    <input type="text" name="Coughing" id="Coughing" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
-                </div>
-                <div class="formbold-mb-5">
-                    <label for="Swallowing Difficulty" class="formbold-form-label">
-                        Swallowing Difficulty
-                        <a class="popup-btn icofont-question-circle"></a>
-                    </label>
-                    <input type="text" name="Swallowing Difficulty" id="Swallowing Difficulty" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
-                </div>
-                <div class="formbold-mb-5">
-                    <label for="Chest Pain" class="formbold-form-label">
-                        Chest Pain
-                        <a class="popup-btn icofont-question-circle"></a>
-                    </label>
-                    <input type="text" name="Chest Pain" id="Chest Pain" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
+                    <input type="text" name="Heart Stroke" id="Heart Stroke" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
                 </div>
                 <div>
                     <button class="formbold-btn">Predict</button>
@@ -119,8 +112,8 @@
             <div class="popup-card">
                 <a><i class="icofont-close close-btn"></i></a>
                 <div class="info">
-                    <h3>Yellow Fingers</h3>
-                    <p>Yellow Fingers may be a sign of lung cancer, as it can indicate long-term smoking. The normal range for finger color is a pink or flesh color. However, yellowing of the fingers is considered abnormal when it is persistent or progressive.</p>
+                    <h3>Heart Disease</h3>
+                    <p>Heart disease refers to a range of conditions that can affect the heart, such as coronary artery disease, heart rhythm disorders, and heart defects. The presence of heart disease is a significant risk factor for hypertension. There is no specific numerical range for heart disease, but it can be diagnosed through medical tests and examinations.<br>If you have any heart disease, please enter 1 or else enter 0.</p>
                 </div>
             </div>
         </div>
@@ -128,8 +121,8 @@
             <div class="popup-card">
                 <a><i class="icofont-close close-btn"></i></a>
                 <div class="info">
-                    <h3>Fatigue</h3>
-                    <p>Fatigue, or feeling extremely tired or weak, may be a symptom of lung cancer, as cancer cells can cause the body to release chemicals that make you feel tired. The normal range for fatigue varies depending on individual factors such as age and physical activity level, but persistent and excessive fatigue may be a cause for concern. Fatigue is considered abnormal when it is persistent or significantly interferes with daily activities.</p>
+                    <h3>Glucose Level</h3>
+                    <p>Glucose is a type of sugar that the body uses for energy. High glucose levels can indicate the presence of diabetes, which is a major risk factor for hypertension. The normal range for fasting glucose levels is between 70-100 mg/dL, and levels above 126 mg/dL are considered diabetic.</p>
                 </div>
             </div>
         </div>
@@ -137,8 +130,8 @@
             <div class="popup-card">
                 <a><i class="icofont-close close-btn"></i></a>
                 <div class="info">
-                    <h3>Allergy</h3>
-                    <p>Allergies can sometimes be a risk factor for lung cancer, as chronic inflammation can contribute to the development of cancer cells. The normal range for allergies varies, but if you are experiencing persistent symptoms such as sneezing, runny nose, or itchy eyes, you may want to discuss it with your healthcare provider. Allergies are considered abnormal when they significantly interfere with daily activities or lead to persistent respiratory symptoms.</p>
+                    <h3>BMI</h3>
+                    <p>BMI, or body mass index, is a measure of body fat based on height and weight. A high BMI is a significant risk factor for hypertension. A healthy BMI range is between 18.5-24.9 kg/m², while a BMI of 25-29.9 kg/m² is considered overweight, and a BMI of 30 kg/m² or higher is considered obese.</p>
                 </div>
             </div>
         </div>
@@ -146,44 +139,8 @@
             <div class="popup-card">
                 <a><i class="icofont-close close-btn"></i></a>
                 <div class="info">
-                    <h3>Wheezing</h3>
-                    <p>Wheezing, or a high-pitched whistling sound when breathing, may be a symptom of lung cancer, as it can indicate narrowed or blocked airways. The normal range for breathing sounds is a quiet, clear sound with no wheezing. However, wheezing is considered abnormal when it is persistent or accompanied by other respiratory symptoms such as shortness of breath or coughing.</p>
-                </div>
-            </div>
-        </div>
-        <div class="popup-view">
-            <div class="popup-card">
-                <a><i class="icofont-close close-btn"></i></a>
-                <div class="info">
-                    <h3>Alcohol Consuming</h3>
-                    <p>Alcohol consumption can be a risk factor for lung cancer, particularly when combined with smoking. The normal range for alcohol consumption varies depending on individual factors such as age and overall health, but excessive and persistent alcohol consumption can increase the risk of developing lung cancer. Alcohol consumption is considered abnormal when it is persistent or leads to other health problems such as liver disease.</p>
-                </div>
-            </div>
-        </div>
-        <div class="popup-view">
-            <div class="popup-card">
-                <a><i class="icofont-close close-btn"></i></a>
-                <div class="info">
-                    <h3>Coughing</h3>
-                    <p>Coughing can be a symptom of lung cancer, particularly if it is persistent or accompanied by other respiratory symptoms such as wheezing or shortness of breath. The normal range for coughing varies, but if you are experiencing persistent coughing that lasts for more than a few weeks, you may want to discuss it with your healthcare provider. Coughing is considered abnormal when it is persistent or significantly interferes with daily activities.</p>
-                </div>
-            </div>
-        </div>
-        <div class="popup-view">
-            <div class="popup-card">
-                <a><i class="icofont-close close-btn"></i></a>
-                <div class="info">
-                    <h3>Swallowing Difficulty</h3>
-                    <p>Swallowing difficulty, or dysphagia, can be a symptom of lung cancer, particularly if it is accompanied by other respiratory symptoms such as coughing or wheezing. The normal range for swallowing varies, but persistent difficulty swallowing or a sensation of food getting stuck may indicate a problem that requires medical attention. Swallowing difficulty is considered abnormal when it is persistent or significantly interferes with daily activities.</p>
-                </div>
-            </div>
-        </div>
-        <div class="popup-view">
-            <div class="popup-card">
-                <a><i class="icofont-close close-btn"></i></a>
-                <div class="info">
-                    <h3>Chest Pain</h3>
-                    <p>Chest pain can be a symptom of lung cancer, particularly if it is persistent or accompanied by other respiratory symptoms such as coughing or shortness of breath. The normal range for chest pain varies, but any persistent or severe chest pain should be evaluated by a healthcare provider. Chest pain is considered abnormal when it is persistent or significantly interferes with daily activities.</p>
+                    <h3>Heart Stroke</h3>
+                    <p>A stroke occurs when blood flow to the brain is interrupted, either by a blockage or a burst blood vessel. Hypertension is a significant risk factor for stroke. There is no specific numerical range for stroke, but it can be diagnosed through medical tests and examinations.<br>If you have had a stroke in the past, enter 1 or else enter 0.</p>
                 </div>
             </div>
         </div>

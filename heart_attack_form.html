@@ -28,15 +28,14 @@
                     <li class="nav-item"><a class="nav-link" href="#">Chat Room</a></li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services <i
-                                class="icofont-thin-down"></i></a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Services <i class="icofont-thin-down"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown02">
                             <li><a class="dropdown-item" href="lung_cancer_form.html">Lung Cancer</a></li>
                             <li><a class="dropdown-item" href="diabetes_form.html">Diabetes</a></li>
                             <li><a class="dropdown-item" href="heart_attack_form.html">Heart Attack</a></li>
                             <li><a class="dropdown-item" href="kidney_disease.html">Kidney Disease</a></li>
-                            <li><a class="dropdown-item" href="#">Disease</a></li>
+                            <li><a class="dropdown-item" href="hypertension_form.html">Hypertension</a></li>
                             <li><a class="dropdown-item" href="#">Parkinsons</a></li>
                         </ul>
                     </li>
@@ -52,26 +51,103 @@
         <div class="formbold-form-wrapper">
             <form action="#" method="POST">
                 <div class="formbold-mb-5">
-                    <label for="name" class="formbold-form-label">
-                        Parameter 1
-                        <a class="popup-btn icofont-question-circle"></a>
+                    <label for="Age" class="formbold-form-label">
+                        Age
                     </label>
-
-                    <input type="text" name="name" id="name" placeholder="Parameter 1" class="formbold-form-input" />
+                    <input type="text" name="Age" id="Age" placeholder="Age" class="formbold-form-input" />
                 </div>
                 <div class="formbold-mb-5">
-                    <label for="phone" class="formbold-form-label">
-                        Parameter 2
-                        <a class="popup-btn icofont-question-circle"></a>
+                    <label for="Sex" class="formbold-form-label">
+                        Sex
                     </label>
-                    <input type="text" name="name" id="name" placeholder="Parameter 2" class="formbold-form-input" />
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <input type="radio" id="male" name="sex" value="male">
+                            <label for="male">Male</label><br>
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="radio" id="female" name="sex" value="female">
+                            <label for="female">Female</label><br>
+                        </div>
+                    </div>
                 </div>
                 <div class="formbold-mb-5">
-                    <label for="email" class="formbold-form-label">
-                        Parameter 3
+                    <label for="Chest Pain" class="formbold-form-label">
+                        Chest Pain
                         <a class="popup-btn icofont-question-circle"></a>
                     </label>
-                    <input type="text" name="name" id="name" placeholder="Parameter 3" class="formbold-form-input" />
+                    <input type="text" name="Chest Pain" id="Chest Pain" placeholder="Enter 1, 2 or 3" class="formbold-form-input" />
+                    
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="Resting Blood Pressure" class="formbold-form-label">
+                        Resting Blood Pressure (in mm Hg)
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="Resting Blood Pressure" id="Resting Blood Pressure" placeholder="Enter Resting Blood Pressure" class="formbold-form-input" />
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="Cholestoral" class="formbold-form-label">
+                        Cholestoral (mg/dl)
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="Cholestoral" id="Cholestoral" placeholder="Enter Cholestoral" class="formbold-form-input" />
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="Fasting Blood Sugar" class="formbold-form-label">
+                        Fasting Blood Sugar
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="Fasting Blood Sugar" id="Fasting Blood Sugar" placeholder="Enter 1 or 0" class="formbold-form-input" />
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="Resting Electrocardiographic Results" class="formbold-form-label">
+                        Resting Electrocardiographic Results
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="Resting Electrocardiographic Results" id="Resting Electrocardiographic Results" placeholder="Enter Resting Electrocardiographic Results" class="formbold-form-input" />
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="Maximum Heart Rate Achieved" class="formbold-form-label">
+                        Maximum Heart Rate Achieved
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="Maximum Heart Rate Achieved" id="Maximum Heart Rate Achieved" placeholder="Enter Maximum Heart Rate Achieved" class="formbold-form-input" />
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="Exercise Induced Angina" class="formbold-form-label">
+                        Exercise Induced Angina
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="Exercise Induced Angina" id="Exercise Induced Angina" placeholder="Enter 1 for yes or 0 for no" class="formbold-form-input" />
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="Old Peak" class="formbold-form-label">
+                        Old Peak
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="Old Peak" id="Old Peak" placeholder="Enter Old Peak" class="formbold-form-input" />
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="SLP" class="formbold-form-label">
+                        SLP
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="SLP" id="SLP" placeholder="Enter SLP" class="formbold-form-input" />
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="CAA" class="formbold-form-label">
+                        CAA
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="CAA" id="CAA" placeholder="Enter CAA" class="formbold-form-input" />
+                </div>
+                <div class="formbold-mb-5">
+                    <label for="THALL" class="formbold-form-label">
+                        THALL
+                        <a class="popup-btn icofont-question-circle"></a>
+                    </label>
+                    <input type="text" name="THALL" id="THALL" placeholder="Enter THALL" class="formbold-form-input" />
                 </div>
                 <div>
                     <button class="formbold-btn">Predict</button>
@@ -87,10 +163,98 @@
             <div class="popup-card">
                 <a><i class="icofont-close close-btn"></i></a>
                 <div class="info">
-                    <h3>Parameter 1<br><span>Parameter 1</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Chest Pain</h3>
+                    <p>Chest pain, or angina, can be a symptom of heart attack, as it can indicate a lack of oxygen to the heart. The normal range for chest pain is none. However, chest pain is considered abnormal when it is persistent or significantly interferes with daily activities.<br>Enter your pain level in 1,2 or 3, where 1 is lowest pain and 3 is highest pain</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>Resting Blood Pressure</h3>
+                    <p>Resting blood pressure measures the force of blood against the walls of the arteries when the heart is at rest. The normal range for resting blood pressure is below 120/80 mm Hg. However, high blood pressure, or hypertension, is considered abnormal when the reading is consistently above 130/80 mm Hg.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>Cholestoral</h3>
+                    <p>Cholesterol is a waxy, fat-like substance that can build up in the arteries and increase the risk of heart attack. The normal range for cholesterol is below 200 mg/dL. However, high levels of LDL cholesterol, also known as "bad" cholesterol, are considered abnormal when they are consistently above 130 mg/dL.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>Fasting Blood Sugar</h3>
+                    <p>Fasting blood sugar measures the amount of glucose in the blood after a period of fasting. The normal range for fasting blood sugar is below 100 mg/dL. However, high levels of fasting blood sugar, also known as hyperglycemia, are considered abnormal when the reading is consistently above 126 mg/dL. if fasting blood sugar is greater than 120 mg/dl, then enter 1 which is true, else 0 which is false</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>Resting Electrocardiographic Results</h3>
+                    <p>A resting electrocardiogram, or ECG, measures the electrical activity of the heart at rest. The normal range for resting ECG results is a regular heart rhythm with no signs of abnormal activity. However, abnormal ECG results, such as irregular heart rhythms or abnormal waves, are considered abnormal and may indicate an increased risk of heart attack.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>Maximum Heart Rate Achieved</h3>
+                    <p>Maximum heart rate achieved measures the highest heart rate reached during exercise. The normal range for maximum heart rate achieved varies depending on age and physical fitness level, but generally ranges from 220 minus age to 180 minus age. However, an abnormally high or low maximum heart rate achieved may indicate an increased risk of heart attack.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>Exercise Induced Angina</h3>
+                    <p>Exercise-induced angina, or chest pain during exercise, can be a symptom of heart attack, as it can indicate a lack of oxygen to the heart. The normal range for exercise-induced angina is none. However, chest pain during exercise is considered abnormal and may indicate an increased risk of heart attack.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>Old Peak</h3>
+                    <p>Old peak measures the amount of ST depression on the ECG during exercise. The normal range for old peak varies depending on individual factors such as age and physical fitness level, but an abnormally high or prolonged old peak may indicate an increased risk of heart attack.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>SLP</h3>
+                    <p>Single-photon emission computed tomography (SPECT) is a diagnostic imaging test that can be used to assess blood flow to the heart. The normal range for SPECT results is a normal blood flow pattern with no signs of abnormalities. However, abnormal SPECT results, such as reduced blood flow to the heart, are considered abnormal and may indicate an increased risk of heart attack.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>CAA</h3>
+                    <p>Coronary artery calcification (CAC) is a test that uses computed tomography (CT) scans to measure the amount of calcium buildup in the arteries of the heart. The normal range for CAC scores is zero, indicating no calcium buildup. However, higher CAC scores are considered abnormal and may indicate an increased risk of heart attack.</p>
+                </div>
+            </div>
+        </div>
+        <div class="popup-view">
+            <div class="popup-card">
+                <a><i class="icofont-close close-btn"></i></a>
+                <div class="info">
+                    <h3>THALL</h3>
+                    <p>Thallium stress testing is a diagnostic imaging test that can be used to assess blood flow to the heart during exercise. The normal range for thallium stress testing is a normal</p>
                 </div>
             </div>
         </div>
@@ -105,7 +269,9 @@
                             <img src="images/logo.png" alt="" class="img-fluid">
                         </div>
                         <p>Our team is dedicated to providing you with the best possible service and support.
-                            Stay up-to-date with the latest health news and tips by following SickSense on social media.</p>                        <ul class="list-inline footer-socials mt-4">
+                            Stay up-to-date with the latest health news and tips by following SickSense on social media.
+                        </p>
+                        <ul class="list-inline footer-socials mt-4">
                             <li class="list-inline-item"><a href="#"><i class="icofont-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="icofont-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="icofont-linkedin"></i></a></li>

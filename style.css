@@ -292,7 +292,7 @@ footer {
   width: 55%;
   height: 100%;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 30px;
   border-radius: 10px;
   color: #fff;
 }
@@ -301,7 +301,7 @@ footer {
   color: #fff;
   z-index: 3;
   position: relative;
-  top: 20px;
+  top: 30px;
   left: 430px;
   font-size: 30px;
   margin: 20px;
@@ -310,15 +310,8 @@ footer {
 
 .popup-card .info h3 {
   font-size: 40px;
-  line-height: 20px;
   margin: 10px;
   color: #fff;
-}
-
-.popup-card .info h3 span {
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
 }
 
 .popup-card .info p {
